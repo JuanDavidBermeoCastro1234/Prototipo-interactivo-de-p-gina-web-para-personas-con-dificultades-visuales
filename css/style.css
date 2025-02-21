@@ -211,3 +211,50 @@ body {
         }
     }
 }
+
+.div-2 {
+    margin-top: 56px;
+    margin-left: 169px;
+    padding-right:172px ;
+    text-align: -webkit-center;
+}
+.section-jugar {
+    width: 654px;
+    display: flex;
+    flex-direction: column;
+
+
+    h2{
+        font-family: "RobotoCondensed-Bold";
+        color: var(--color-1);
+        font-size: 64px;
+        margin-bottom: 41px;
+    }
+    p{
+        font-family: "RobotoCondensed-Regular";
+        color: var(--color-1);
+        font-size: 36px;
+        margin-bottom: 41px;
+    }
+}
+.section-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    article{
+        display: flex;
+        flex-direction: row;
+        background: red;
+        text-align: center;
+
+        h3{
+            width: 100px;
+            height: 100px;
+            font-family: "RobotoCondensed-Bold";
+            color: var(--color-2);
+            border-radius: 100%;
+            width: 100px;
+        }
+    }
+}
