@@ -1,22 +1,81 @@
-:root{
-    --color-1: #FFFFFF;
-    --color-2: #000000;
-    --color-3: #141414;
-    --color-4: #171717;
-    --color-5: #2ECDFF;
-    --color-6: #383838;
-    --color-7: #2C2C2C;
-    --color-8: #707070;
+@import url(variable.css);
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: px solid tomato;
+}
+body{
+    background-color: var(--color-3);
+}
+.header {
+    width: 100%;
+    position: relative;
+}
+.div-header{
+    width: 1378px;
+    display: flex;
+    margin-bottom: 16px;
+    margin-left: -36px;
+
+}
+.buttom-header {
+    display: flex;
+    width: 298px;
+    height: 96px;
+    /* background: green; */
+    border-radius: 48px;
+    background-color: var(--color-1);
+    margin-top: 29px;
+    border: none;
 }
 
-@font-face {
-    font-family: "RobotoCondensed-Regular";
-    src: url(../storage/font/RobotoCondensed-Regular.ttf);
+.figure{
+    display: flex;
+    flex-direction: row;
+    /* background: RED; */
+    align-items: center;
+    margin-top: 21px;
+    margin-left: 76px;
+
+    figcaption{
+        margin-left: 0;
+        font-family: "RobotoCondensed-Regular";
+        font-size: 48px;
+        color: var(--color-2);
+        margin-right: 5px;
+    }
+    img{
+        width: 45px;
+        height: 45px;
+        margin-right: 57px;
+    }
 
 }
 
-@font-face {
-    font-family: "RobotoCondensed-Bold";
-    src: url(../storage/font/RobotoCondensed-Bold.ttf);
-}
+.section-menu{
+    /* background: red; */
+    width: 732px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 92px;
+    margin-top:72px;
+    border-bottom: 2px solid var(--color-7);
+    justify-content: space-between;
 
+    
+    a{
+        text-decoration: none;
+        color: var(--color-1);
+    }
+    h3{
+        font-family: "RobotoCondensed-Bold";
+        font-size: 24px;
+    }
+    .h3-4{
+        border-bottom: 2px solid var(--color-1);
+    }
+}
